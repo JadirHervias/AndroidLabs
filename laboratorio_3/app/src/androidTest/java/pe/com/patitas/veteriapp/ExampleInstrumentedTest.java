@@ -1,4 +1,4 @@
-package com.tecsup.patitas.veteriapp;
+package pe.com.patitas.veteriapp;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.tecsup.patitas.veteriapp", appContext.getPackageName());
+        assertEquals("pe.com.patitas.veteriapp", appContext.getPackageName());
     }
 }

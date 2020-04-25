@@ -1,4 +1,4 @@
-package com.tecsup.patitas.veteriapp.activities;
+package pe.com.patitas.veteriapp.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,11 +9,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.tecsup.patitas.veteriapp.R;
+import pe.com.patitas.veteriapp.R;
 
 public class LoginActivity extends AppCompatActivity {
-
-    private static final String TAG = "LoginActivity";
 
     private EditText edtUser;
     private EditText edtPass;
@@ -24,9 +22,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-/*        edtUser = (EditText) findViewById(R.id.edtUser);
-        edtPass = (EditText) findViewById(R.id.edtPass);
-        btnLogin = (Button) findViewById(R.id.btnLogin);
+        edtUser = findViewById(R.id.edtUser);
+        edtPass = findViewById(R.id.edtPass);
+        btnLogin = findViewById(R.id.btnLogin);
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +38,6 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "Login incorrecto", Toast.LENGTH_SHORT).show();
                 }
             }
-        });*/
+        });
     }
 }

@@ -1,4 +1,4 @@
-package com.tecsup.patitas.veteriapp;
+package pe.com.patitas.veteriapp;
 
 import org.junit.Test;
 
