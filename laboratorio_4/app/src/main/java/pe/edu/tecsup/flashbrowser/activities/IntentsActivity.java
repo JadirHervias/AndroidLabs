@@ -39,9 +39,9 @@ public class IntentsActivity extends AppCompatActivity {
                 Intent intent = null;
                 switch (position) {
                     case 0:
+                        // intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tecsup.edu.pe"));
                         Intent webWiew = new Intent(IntentsActivity.this, WebViewActivity.class);
                         startActivity(webWiew);
-                        // intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tecsup.edu.pe"));
                         break;
                     case 1:
                         intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:(+1)3173900"));
