@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.webkit.WebView;
 import android.widget.ArrayAdapter;
 
 import pe.edu.tecsup.flashbrowser.R;
@@ -15,11 +16,12 @@ import pe.edu.tecsup.flashbrowser.R;
 public class IntentsActivity extends AppCompatActivity {
     private AppCompatSpinner spnIntent;
     private AppCompatButton btnTry;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_intents);
-// Se instancian las vistas
+        // Se instancian las vistas
         spnIntent = findViewById(R.id.spnIntent);
         btnTry = findViewById(R.id.btnTry);
         // Se setean los valores del spinner
@@ -37,7 +39,9 @@ public class IntentsActivity extends AppCompatActivity {
                 Intent intent = null;
                 switch (position) {
                     case 0:
-                        intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tecsup.edu.pe"));
+                        Intent webWiew = new Intent(IntentsActivity.this, WebViewActivity.class);
+                        startActivity(webWiew);
+                        // intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.tecsup.edu.pe"));
                         break;
                     case 1:
                         intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:(+1)3173900"));

@@ -3,8 +3,7 @@
     package="pe.edu.tecsup.flashbrowser">
 
     <uses-permission android:name="android.permission.CALL_PHONE" />
-    <uses-permission android:name="android.permission.READ_CONTACTS"
-        />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -14,6 +13,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".activities.WebViewActivity" />
         <activity android:name=".activities.IntentsActivity" />
         <activity android:name=".activities.ReceiverActivity">
             <intent-filter>
