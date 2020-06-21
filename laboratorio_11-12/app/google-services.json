@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "27979031066",
+    "firebase_url": "https://fir-app-2b9fd.firebaseio.com",
+    "project_id": "fir-app-2b9fd",
+    "storage_bucket": "fir-app-2b9fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27979031066:android:8a873908607b282b17e7a3",
+        "android_client_info": {
+          "package_name": "pe.edu.tecsup.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27979031066-3gqng4m7accqcea2ohgn1prg4b0hf2b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN8Y4r755LikH-jifTw8jFNYkjNjJYob0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27979031066-3gqng4m7accqcea2ohgn1prg4b0hf2b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
